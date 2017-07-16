@@ -10,7 +10,7 @@ Consider a maze as shown in the following image:
 
 1. We begin from a graph's node.
 
-2. We note that we visited this node and retriev the list of neighboring nodes. We choose randomly neighboring elements and then:
+2. We note that we visited this node and retriev the list of neighboring nodes. We choose randomly a neighboring node and then:
 
   * If we have not visited the neighboring node, move to this node, store the edge between two nodes and recursively continue the procedure from step 2 with the neightboring element.
 
