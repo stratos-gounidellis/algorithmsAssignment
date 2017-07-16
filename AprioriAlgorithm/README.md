@@ -4,14 +4,15 @@ In several applications (consumer behavior, biomarkers' analysis, plagiarism det
 
 The baskets of items are contained in a CSV file. Each line of this file is of the following form:
 
-'''
+```
 item_1, item_2, ..., item_n
-'''
+```
+
 Τhe program runs in the form: 
 
-'''
+```
 python a_priori.py [-n] [-p] [-o OUTPUT] support filename
-'''
+```
 
 The -n parameter is optional. If parameter-n is given, the program will consider that the objects are numeric. Otherwise, it considers that the objects are strings.
 The -p parameter is optional. If parameter -p is given, the program considers that the minimum support given by the -s parameter is the percentage of baskets that should containt an itemset to be considered significant.
